@@ -31,6 +31,7 @@ func pass() {
 
 	fmt.Println(input)
 
+	// 단축 변수 선언은 한번만 가능
 	s := "\t formerly surrounded by space \n"
 	fmt.Println(strings.TrimSpace(s))
 
